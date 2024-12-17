@@ -13,7 +13,7 @@ $ pip install pandas
 $ pip install flask
 ```
 
-After, you can run file app.py then it run in address http://127.0.0.1:5000
+After install lib, you can run file app.py then it run in address http://127.0.0.1:5000
 
 
 <p style="font-style: italic">Copyright belongs to My team, if you have questions then contact: lam2012003az@gmail.com </p>
