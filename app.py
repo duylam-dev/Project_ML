@@ -4,8 +4,8 @@ import pickle
 app = Flask(__name__)
 
 #========================loading the save files==================================================
-model = pickle.load(open('logistic_regression.pkl','rb'))
-feature_extraction = pickle.load(open('feature_extraction.pkl','rb'))
+model = pickle.load(open('Model_ML/logistic_regression.pkl', 'rb'))
+feature_extraction = pickle.load(open('Model_ML/feature_extraction.pkl', 'rb'))
 
 
 def predict_mail(input_text):
